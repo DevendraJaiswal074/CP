@@ -1,0 +1,9 @@
+a=int(input("enter the A value:"))
+b=int(input("enter the b value:"))
+c=a/b
+if(a>b):
+    print("Height=",a)
+elif(a<b):
+    print("Height=",b)
+else:
+    print("Not found")
