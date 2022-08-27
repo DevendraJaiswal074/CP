@@ -1,0 +1,7 @@
+
+x=int(input("input exam score::"))
+y=int(input("input second exam score"))
+if (x<y):
+    print(" The second exam score is best",y)
+elif(x>y):
+    print("The first exam score is best",x)
