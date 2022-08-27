@@ -1,0 +1,21 @@
+A=int(input("enter your scored:-"))
+A2=int(input("enter your scored:-"))
+A3=int(input("enter your scored:-"))
+avg= A+A2
+avg2=0
+if(avg<35):
+    avg2=avg+A3
+    if(avg2>35):
+        print("u are pass because adding of third subject")
+
+    elif(avg2==35):
+        print("just pass, u are pass because adding of third ")
+        
+    else:
+        print("fail")
+elif(avg==35):
+    print("just pass")
+else:
+    print("u are good score")
+    
+    
