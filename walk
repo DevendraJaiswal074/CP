@@ -1,0 +1,5 @@
+x=int(input("input km::-"))
+km=x*x
+day=5
+day2=day*km
+print(day2)
