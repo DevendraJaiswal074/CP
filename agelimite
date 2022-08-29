@@ -1,0 +1,8 @@
+
+age=int(input("enter limit"))
+limit=30
+agemin=15
+if(age>=agemin and age<=limit):
+    print("u can give the exam")
+else:
+    print("u cant give the exam ")
