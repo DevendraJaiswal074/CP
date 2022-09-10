@@ -1,0 +1,7 @@
+amount= int(input("amount of per day::"))
+week=int(input("total no of day::"))
+b=0
+for a in range (week):
+    b=b+1
+    amg=amount*b
+print(amg)
